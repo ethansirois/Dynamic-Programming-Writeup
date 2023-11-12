@@ -53,9 +53,11 @@ You can check out the code for the graph generation in my "notebooks_Intro.ipynb
 My DP solution was magnitudes faster than the recursive implementation!
 
 Here's a normal plot of the runtimes for recursion vs dynamic programming. It's almost hard to see the DP line because of how much faster it is!
+
 ![Screenshot 2023-11-11 at 11 48 05 PM](https://github.com/ethansirois/dp/assets/114622541/df1cc8b4-9cd4-4e9f-9439-1ccadd64830d)
 
 And here's the loglog plot of the recursive implementation vs my dynamic programming implementation, displaying the asymptotic difference between the two:
+
 ![Screenshot 2023-11-11 at 11 47 52 PM](https://github.com/ethansirois/dp/assets/114622541/48e0cf97-e23c-47bd-b729-29743b14d50d)
 
 

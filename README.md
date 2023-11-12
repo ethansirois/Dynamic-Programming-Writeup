@@ -5,7 +5,9 @@ Here is the problem description:
 “Given an integer array nums, return true if you can partition the array into two subsets such that the sum of the elements in both subsets is equal or false otherwise.”
 
 It took me a bit of time, but I realized that this problem essentially boils down to the following:
-Determine if an array can contains two subsets of with the same sum --> 
+
+Determine if an array can contains two subsets of with the same sum -->
+
 Determine if the array contains a subset that sums to half of its original sum.
 
 This is because if the array can be split into two portions of the same sum, well then each of those subsets must have a sum of half the array's sum.

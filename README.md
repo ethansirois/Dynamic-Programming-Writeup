@@ -60,3 +60,5 @@ Format-- $vector_size: $recursive_time vs $dp_time
 
 ## 106: 172.828 vs 0.000254875
 
+Not sure why those get underlined, but look at the difference! And vector size is only around 100 at those tests!
+

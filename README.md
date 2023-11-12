@@ -32,7 +32,7 @@ And here's the loglog plot of the recursive implementation vs my dynamic program
 And here's the raw output of times:
 
 ## Recursive Times vs DP Times: 
-Format-- ${vector size}: $recursive time vs $dp time
+Format-- $vector_size: $recursive_time vs $dp_time
 10: 3.083e-06 vs 9.59e-07
 
 18: 5.25e-06 vs 1.875e-06

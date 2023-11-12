@@ -40,7 +40,7 @@ I then realized that if I'm going to be going through and copying the entire row
 
 This solution was quick and memory efficient. It only used one array of booleans of size target, which is the size of the initial array divided by 2.
 
-It also turns an exponential recusive solution into a O(n^2) $$O(n^2)$$ solution, which was pretty cool. I don't have the proof but would argue that it's less than O(n^2) since the second for loop doesn't even go through all the elements, but at worst case it's O(n^2).
+It also turns an exponential recusive solution into a $O(n^2)$ solution, which was pretty cool. I don't have the proof but would argue that it's less than $O(n^2)$ since the second for loop doesn't even go through all the elements, but at worst case it's $O(n^2)$.
 
 This solution seems more efficient than the 2d array solution that Erickson promotes for finding if a subset of elements in an array sum to a value, as it requires the 2d array instead of 1d and has more loops involved. Maybe I am mistaken, but either way I was happy with the result. It beat 96.5% of solutions on LeetCode!
 

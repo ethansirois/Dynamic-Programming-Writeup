@@ -33,6 +33,7 @@ And here's the raw output of times:
 
 ## Recursive Times vs DP Times: 
 Format-- $vector_size: $recursive_time vs $dp_time
+
 10: 3.083e-06 vs 9.59e-07
 
 18: 5.25e-06 vs 1.875e-06

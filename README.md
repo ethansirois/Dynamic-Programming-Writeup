@@ -13,8 +13,13 @@ Determine if the array contains a subset that sums to half of its original sum.
 This is because if the array can be split into two portions of the same sum, well then each of those subsets must have a sum of half the array's sum, since they're equal and then they sum to the array's total sum.
 
 # My algorithm
+## Recursive
 I had to really tune my recursive algorithm, but once I did the DP solution was pretty straightforward. Here's the rundown for the recursion:
 
+Function I/O: takes in a vector, starting index, and target (half the sum of the original array. This is handled before calling the recursive helper function. We can assert inside the recursive function that this will always be a valid split, i.e., the original array sum was even, but that doesn't guarantee that this will be even after the original call!). This will return a bool.
+
+Base case: Target = 0. The empty set is always a subset of any set. We recurse down to this point if we've removed elements that are exactly target (half the sum of the original array)
+## DP
 
 
 # Code
@@ -58,7 +63,7 @@ Format-- $vector_size: $recursive_time vs $dp_time
 
 ### 98: 10.8211 vs 0.000186417
 
-## 106: 172.828 vs 0.000254875
+### 106: 172.828 vs 0.000254875
 
-Not sure why those get underlined, but look at the difference! And vector size is only around 100 at those tests!
+Not sure why those two become "hyperlinked", but look at the difference! And vector size is only around 100 at those tests!
 

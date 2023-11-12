@@ -58,9 +58,10 @@ Here's a normal plot of the runtimes for recursion vs dynamic programming. It's 
 And here's the loglog plot of the recursive implementation vs my dynamic programming implementation, displaying the asymptotic difference between the two:
 ![Screenshot 2023-11-11 at 11 47 52 PM](https://github.com/ethansirois/dp/assets/114622541/48e0cf97-e23c-47bd-b729-29743b14d50d)
 
-And here's the raw output of times:
 
 ## Recursive Times vs DP Times: 
+And here's the raw output of times:
+
 Format-- $vector_size: $recursive_time vs $dp_time
 
 10: 3.083e-06 vs 9.59e-07
